@@ -5,9 +5,7 @@ This repository contains code, documentation, and reports for analyzing Yelp’s
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Project Objectives](#project-objectives)
-- [Repository Structure](#repository-structure)
 - [Prerequisites](#prerequisites)
-- [Installation & Setup](#installation--setup)
 - [Dataset Preparation](#dataset-preparation)
 - [Running the Analysis](#running-the-analysis)
 - [Results & Reports](#results--reports)
@@ -27,3 +25,16 @@ The primary goals of this project are:
 - **Business Insights:** Execute advanced Spark SQL queries to identify top-rated Arizona Nightlife businesses, evaluate city-level performance, and determine peak check-in patterns.
 - **User Engagement Analysis:** Analyze user data to identify influential reviewers, understand elite user participation, and capture seasonal trends.
 - **Actionable Recommendations:** Provide data-driven insights that can support strategic decisions in the Nightlife industry.
+
+## Prerequisites
+- **Operating System:** Ubuntu 22.04 LTS (or similar Linux environment, optionally via a Virtual Machine)
+- **Java Development Kit (JDK):** Required for running Hadoop and Spark.
+- **Apache Hadoop & Apache Spark:** Properly installed and configured.
+- **Python 3.x:** With libraries specified in `requirements.txt`.
+- **Jupyter Notebook:** For interactive development and running the notebooks.
+
+## Dataset Preparation
+-	**Yelp Dataset:
+Download the dataset from the Yelp Open Dataset page.
+-	**Filtering & Transformation:
+The project filters the dataset to include Arizona Nightlife businesses and converts the data from JSON to Parquet format for efficient analysis using Spark.
