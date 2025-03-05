@@ -9,9 +9,7 @@ This repository contains code, documentation, and reports for analyzing Yelp’s
 - [Dataset Preparation](#dataset-preparation)
 - [Running the Analysis](#running-the-analysis)
 - [Results & Reports](#results--reports)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Project Overview
 The project leverages Hadoop and Apache Spark (via PySpark) on an Ubuntu environment to process large-scale Yelp data. It transforms raw JSON data into optimized Parquet files for efficient distributed querying and analysis. The analysis is divided into two main components:
