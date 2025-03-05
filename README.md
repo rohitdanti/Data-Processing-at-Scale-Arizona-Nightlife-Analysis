@@ -34,8 +34,8 @@ The primary goals of this project are:
 - **Jupyter Notebook:** For interactive development and running the notebooks.
 
 ## Dataset Preparation
-**Yelp Dataset:
+Yelp Dataset:
 - Download the dataset from the Yelp Open Dataset page : https://www.yelp.com/dataset
 
-** Filtering & Transformation:
+Filtering & Transformation:
 - The project filters the dataset to include Arizona Nightlife businesses and converts the data from JSON to Parquet format for efficient analysis using Spark.
