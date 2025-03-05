@@ -57,7 +57,7 @@ Filtering & Transformation:
 ## Results & Reports
 - **Business Analysis Report:**  
   A comprehensive report detailing key performance indicators, including top-rated establishments, city-level trends, and peak check-in periods. This report offers actionable insights for market analysis and strategic planning.  
-  [View Business Analysis Report](docs/Business Analysis Report)
+  [View Business Analysis Report](docs/Business_Analysis_Report)
 - **User Analysis Report:**  
   An in-depth report highlighting user engagement patterns, influential reviewers, and seasonal activity trends. This document serves as a robust resource for understanding consumer behavior and guiding strategic decisions.  
   [View User Analysis Report](docs/User_Analysis_Report)
