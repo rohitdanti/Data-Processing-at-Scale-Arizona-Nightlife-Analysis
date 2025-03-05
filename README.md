@@ -39,3 +39,23 @@ Yelp Dataset:
 
 Filtering & Transformation:
 - The project filters the dataset to include Arizona Nightlife businesses and converts the data from JSON to Parquet format for efficient analysis using Spark.
+
+## Running the Analysis
+
+### Business-Level Analysis:
+- Open `Business_Level_Analysis.ipynb` in Jupyter Notebook and run the cells sequentially to:
+  - Convert and filter the dataset.
+  - Execute Spark SQL queries to extract insights on top-rated businesses, city performance, and check-in trends.
+  - Visualize the results using built-in plots and graphs.
+
+### User-Level Analysis:
+- Open `User_Level_Analysis.ipynb` in Jupyter Notebook and run the cells to:
+  - Analyze user review data.
+  - Identify influential reviewers and elite user participation.
+  - Explore seasonal trends and geographical distribution of reviews.
+
+## Results & Reports
+- **Business Analysis Report:**
+  - Detailed findings and visualizations are available in `docs/business_analysis_report.pdf`.
+- **User Analysis Report:**
+  - In-depth analysis of user behavior is documented in `docs/user_analysis_report.pdf`.
