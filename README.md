@@ -42,20 +42,22 @@ Filtering & Transformation:
 
 ## Running the Analysis
 
-### Business-Level Analysis:
-- Open `Business_Level_Analysis.ipynb` in Jupyter Notebook and run the cells sequentially to:
-  - Convert and filter the dataset.
-  - Execute Spark SQL queries to extract insights on top-rated businesses, city performance, and check-in trends.
-  - Visualize the results using built-in plots and graphs.
+### Business-Level Analysis
+- **Transform & Query:**  
+  Open `Business_Level_Analysis.ipynb` in Jupyter Notebook and execute the cells to transform raw Yelp JSON data into optimized Parquet files. Leverage advanced Spark SQL queries to extract critical insights on top-rated businesses, dynamic city performance, and customer check-in trends.
+- **Visualization & Insights:**  
+  The notebook generates intuitive visualizations that reveal market dynamics and customer engagement metrics, providing a strategic overview of Arizona’s premier Nightlife establishments.
 
-### User-Level Analysis:
-- Open `User_Level_Analysis.ipynb` in Jupyter Notebook and run the cells to:
-  - Analyze user review data.
-  - Identify influential reviewers and elite user participation.
-  - Explore seasonal trends and geographical distribution of reviews.
+### User-Level Analysis
+- **Deep Dive into User Behavior:**  
+  Open `User_Level_Analysis.ipynb` in Jupyter Notebook and run the cells to perform a comprehensive analysis of user review data. This analysis uncovers influential reviewers, elite user participation, and seasonal trends that shape consumer behavior.
+- **Actionable Intelligence:**  
+  The notebook applies sophisticated aggregation techniques and statistical analysis to deliver granular insights into user engagement and geographic distribution, empowering data-driven business strategies.
 
 ## Results & Reports
-- **Business Analysis Report:**
-  - Detailed findings and visualizations are available in `docs/business_analysis_report.pdf`.
-- **User Analysis Report:**
-  - In-depth analysis of user behavior is documented in `docs/user_analysis_report.pdf`.
+- **Business Analysis Report:**  
+  A comprehensive report detailing key performance indicators, including top-rated establishments, city-level trends, and peak check-in periods. This report offers actionable insights for market analysis and strategic planning.  
+  [View Business Analysis Report](docs/business_analysis_report.pdf)
+- **User Analysis Report:**  
+  An in-depth report highlighting user engagement patterns, influential reviewers, and seasonal activity trends. This document serves as a robust resource for understanding consumer behavior and guiding strategic decisions.  
+  [View User Analysis Report](docs/user_analysis_report.pdf)
